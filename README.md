@@ -1,3 +1,9 @@
+## Dataset  
+The dataset used in this project is from Kaggle. You can download it from the link below:  
+
+👉 [Click here to access the dataset](https://kaggle.com/datasets/a2cc3550c187acb5a60a55f5ad01f66d0403df0f5bc2b0fc431c648456ca7d43)  
+
+
 This project is a deep learning-based facial expression recognition system that classifies human emotions into different categories such as Happy, Sad, Angry, Surprised, Neutral, and more. It uses MobileNetV2, a lightweight and efficient deep learning model, to extract features from facial images and classify them accordingly. The model is trained using a dataset of labeled facial expressions and fine-tuned for accurate predictions.
 
 The dataset is automatically downloaded using gdown from Google Drive, preprocessed using ImageDataGenerator, and then fed into the MobileNetV2 model. The model is compiled using categorical cross-entropy loss and optimized with Adam optimizer. It is trained for a specified number of epochs, with validation data used to monitor performance.
